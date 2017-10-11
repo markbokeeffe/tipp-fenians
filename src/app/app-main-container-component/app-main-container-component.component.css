@@ -5,3 +5,12 @@
 .large-title{
   font-size:2em;
 }
+
+p{
+  width:200px;
+  background:lightgray;
+  margin:100px auto;
+  text-align:cente;
+  padding:200px;
+  font-size:1.5em;
+}
