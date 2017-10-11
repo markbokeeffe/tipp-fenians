@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadComponentComponent implements OnInit {
   angularLogo = 'http://angular.io/assets/images/logos/angular/angular.svg';
+  titleStyles = {
+    'color':'red',
+    'font-size':'4em'
+  }
   constructor() { }
 
   ngOnInit() {
