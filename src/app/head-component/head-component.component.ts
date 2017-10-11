@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./head-component.component.css']
 })
 export class HeadComponentComponent implements OnInit {
-
+  angularLogo = 'http://angular.io/assets/images/logos/angular/angular.svg';
   constructor() { }
 
   ngOnInit() {

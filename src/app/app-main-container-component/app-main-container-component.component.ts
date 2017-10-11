@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-main-container-component.component.css']
 })
 export class AppMainContainerComponentComponent implements OnInit {
-
+  buttonStatus='josephMaxey';
   constructor() { }
 
   ngOnInit() {
