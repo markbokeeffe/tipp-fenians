@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from './data.service';
 
 @Component({
   selector: 'app-app-main-container-component',
@@ -21,9 +22,14 @@ export class AppMainContainerComponentComponent implements OnInit {
     'large-title':true
   }
 
-  constructor() { }
+  someProperty:string = '';
+
+  constructor(private dataService:DataService) {
+  }
 
   ngOnInit() {
+    console.log(this.dataService.cars);
+    this.someProperty = this.dataService.myData();
   }
 
 }
