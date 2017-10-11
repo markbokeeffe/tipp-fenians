@@ -15,6 +15,12 @@ export class AppMainContainerComponentComponent implements OnInit {
   myMouseEnterEvent(event){
     console.log(event);
   }
+
+  titleClasses={
+    'red-title':true,
+    'large-title':true
+  }
+
   constructor() { }
 
   ngOnInit() {

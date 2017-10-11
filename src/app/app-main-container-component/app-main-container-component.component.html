@@ -1,7 +1,4 @@
-<p>
-  Main Container Component
-  <button [disabled]="buttonStatus == 'josephMaxey'">My Property Binding Button</button>
+<p [ngClass]="titleClasses">Main Container Component</p>
+<button [disabled]="buttonStatus == 'josephMaxey'">My Property Binding Button</button>
 
-  <button (click)="myEvent($event)">My Event Button</button>
-  <button (mouseenter)="myMouseEnterEvent($event)">My Event Button 2</button>
-</p>
+<button (click)="myEvent($event)">My Event Button</button>

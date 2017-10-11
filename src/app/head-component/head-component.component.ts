@@ -11,6 +11,7 @@ export class HeadComponentComponent implements OnInit {
     'color':'red',
     'font-size':'4em'
   }
+  titleClass = true;
   constructor() { }
 
   ngOnInit() {
