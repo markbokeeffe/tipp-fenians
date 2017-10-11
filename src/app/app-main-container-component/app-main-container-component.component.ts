@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppMainContainerComponentComponent implements OnInit {
   buttonStatus='josephMaxey';
+
+  myEvent(event){
+    console.log(event);
+  }
+
+  myMouseEnterEvent(event){
+    console.log(event);
+  }
   constructor() { }
 
   ngOnInit() {
